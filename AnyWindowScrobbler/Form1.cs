@@ -46,7 +46,7 @@ namespace AnyWindowScrobbler
         List<IntPtr> hWnds;
         IntPtr CurHwnd;
         string API_KEY = "9ef93f02fa952d79ef45e670c32be729";
-        string API_SECRET = "9a7a52089a6656640669ea2a2af3b523";
+        string API_SECRET = "";
         int SCROBBLE_INTERVAL = 120; // number of seconds, that must come before track will be scrobbled
         List<string> SystemProcesses = new List<string>();
         List<string> MusicExtensions = new List<string>();
